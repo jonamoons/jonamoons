@@ -1,0 +1,68 @@
+/* Import Work Sans font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
+body {
+  font-family: Georgia, serif;
+  max-width: 750px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #111111;
+}
+
+header, footer {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #0066cc;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Apply Work Sans to headings only */
+h1, h2, h3 {
+  margin-top: 2rem;
+  color: #222;
+  font-family: 'Work Sans', sans-serif;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 4rem;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.profile-image {
+  display: block;
+  margin: 1.5rem auto;
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+}
+
+/* Reduce body bio text size */
+.bio-text {
+  font-size: 80%;
+}
